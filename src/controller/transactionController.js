@@ -75,8 +75,10 @@ const getBalance = async (req,res)=>{
         }
 
 }
+
 //required output
-//current balance and current price
+//current balance :""
+// current price:""
 
 module.exports = {getTransaction,getEtherPrice,getBalance}
 
