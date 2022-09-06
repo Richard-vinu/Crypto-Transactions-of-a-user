@@ -1,7 +1,7 @@
 # Crypto-Transactions-of-a-user
 Develop a Server Side Application to fetch Crypto Transactions of a user
 Mandatory Tasks:-
-##Task 1:
+##Task 1:<br>
 1. Develop an API using Node.js to fetch the crypto transactions of a user.
 2. You can use the Etherscan API(https://docs.etherscan.io/api-endpoints/accounts) to
 fetch the list of “Normal” transactions for a user. You can use this address for testing:-
@@ -9,12 +9,12 @@ fetch the list of “Normal” transactions for a user. You can use this address
 free API Key for testing purposes.
 3. The input for the API will be the address of a user. The output would be the list of
 transactions for this address. You would also have to store these transactions against
-this address in a database, preferably MongoDB.
+this address in a database, preferably MongoDB.<br>
 ##Task 2:
 1. Build a system within the same server to fetch the price of Ethereum every 10
 minutes and store it in the database.
 2. You can use this API for the same:-
-https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=inr
+https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=inr<br>
 ##Task 3:
 1. Develop a `GET` API for a user where they give their address as an input and get
 their current balance and current price of ether as output.
