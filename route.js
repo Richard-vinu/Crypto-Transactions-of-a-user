@@ -1,11 +1,14 @@
 const express = require('express')
 const router = express.Router()
-const {getTransaction} = require('./src/controller/transactionController')
+const {getTransaction,getEtherPrice} = require('./src/controller/transactionController')
 
 router.get("/",(req,res)=>
     res.send('hello people')
 )
 
-router.get('/transactions',getTransaction)
+router.get('/userTransactions',getTransaction)
+
+router.get('/etherPrice',getEtherPrice)
+
 
 module.exports = router
