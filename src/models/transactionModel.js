@@ -9,6 +9,11 @@ var accountSchema = mongoose.Schema({
 });
 
 
+let accountSchema = mongoose.Schema({
+    url:"String"
+})
+
+
 exports.model = mongoose.model('userAccount', accountSchema);
 
 
