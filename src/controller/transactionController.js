@@ -51,6 +51,7 @@ const getEtherPrice = async (req,res)=>{
 
 
 //*TASK-3 Getting the Balance of the user
+//status :working on how to conncet to the db
 const getBalance = async (req,res)=>{
 
     try{
@@ -77,8 +78,8 @@ const getBalance = async (req,res)=>{
 }
 
 //required output
-//current balance :""
-// current price:""
+//current balance :"57983758"
+// current price:"759375983745"
 
 module.exports = {getTransaction,getEtherPrice,getBalance}
 
